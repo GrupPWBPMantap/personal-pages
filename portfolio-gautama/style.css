@@ -1,0 +1,45 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url('background.gif');
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container .teks-atas h1{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 5rem;
+    color: white;
+}
+
+.teks-desc {
+    margin-top: 20px;
+}
+
+.teks-social {
+    margin-top: 20px;
+}
+
+.container .teks-social li a {
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+    margin-left: -25px;
+}
+
+.container .teks-social li a:hover {
+    color: rgb(192, 192, 192);
+}
+
+
+@media (min-width: 576px) {
+    .container .teks-social li a {
+        text-decoration: none;
+        color: white;
+        line-height: 35px;
+        margin-left: -25px;
+    }
+}
